@@ -39,8 +39,12 @@ a,
   flex: 1;
 }
 
-.first_part {
+.first_part,
+.second_part {
   padding: 0px 300px 100px;
+}
+
+.first_part {
   background-color: #1f2937;
 }
 
@@ -91,4 +95,30 @@ a,
   flex-direction: column;
   display: flex;
   flex: 1;
+}
+
+.second_header {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 28px;
+  margin-top: 40px;
+}
+
+.pictures {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+}
+
+.image {
+  border: 4px solid #3882f6;
+  height: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
 }
